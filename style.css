@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Marcellus&display=swap');
+
+
 h2 {
     background-color: aquamarine;
 }
@@ -8,9 +12,46 @@ body{
     width: 60vw;/*vw:viewport width*/
     margin: auto; /*margem com ajuste automatico */
     font-size: 16px;/* o padrão é '16px */
+    
 }
 
 section{
-    background-color:lightgrey;
+    
     padding: 30px; /*preenchimento [interno] */
+}
+
+section#Entrar_em_contato_comigo {
+    background-color: lightcoral;
+
+}
+section#Resumo_Profissional {
+    background-color: lightgreen;
+
+
+}
+
+section#Experiencia {
+background-color: bisque;
+
+}
+
+section#Formacao_Academica{
+    background-color: blueviolet;
+}
+section#Cursos{
+    background-color: hotpink;
+
+}
+.titulo_secao{
+    font-family:"Anta",sans-serif;
+    font-size:3rem;
+    margin: 2rem 1rem 3rem 4rem; /*shorthand para margin-top margin-right margin-bottom
+}
+
+section#Soft_Skills{
+    background-color:teal
+}
+
+section#idiomas_que_falo {
+    background-color:tomato
 }
