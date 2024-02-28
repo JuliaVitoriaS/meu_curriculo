@@ -1,5 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anta&family=Marcellus&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+
 :root{
     font-size: 16px;/*tamanho base so rem ->1 rem = 16px*/
 }
@@ -14,7 +17,7 @@ body{
     width: 80vw;/* 80vw: 80% da viewport width*/
     margin: auto; /*margem com ajuste automatico */
     font-size: 16px;/* o padrão é '16px */
-    font-family:"Anta",sans-serif;
+    font-family:"Cantarell",sans-serif;
     font-weight: 200;
 }
 
@@ -23,14 +26,20 @@ section{
     padding: 30px; /*preenchimento [interno] */
 }
 
-section#Entrar_em_contato_comigo {
+section#entrar_em_contato_comigo {
     background-color: lightcoral;
 
 }
 section#Resumo_Profissional {
-    background-color:blanchedalmond;
+    background-color:violet
 
+}
+section#idiomas_que_falo{
+    background-color:tomato
+}
 
+section#Soft_Skills{
+    background-color:plum
 }
 
 section#Experiencia {
@@ -39,17 +48,21 @@ background-color: bisque;
 }
 
 section#Formacao_Academica{
-    background-color: blueviolet;
+    background-color:mediumvioletred
 }
 section#Cursos{
     background-color: hotpink;
 
 }
 
+section#Idiomas_que_falo{
+    background-color:thistle
+}
+
 .titulo_secao{
-    text-transform: uppercase;
+    text-transform:uppercase
     font-family:"Anta",sans-serif;
-    color:dimgray;
+    color:black;
     font-size: 2rem;
     margin: 1rem; /*valores cima direita baixo esquerda*/
     padding: 1rem;/*valores:cima direita baixo esquerda*/
@@ -59,13 +72,16 @@ section#Cursos{
 
 p{
 list-style: none;height: 1,5;/*altura da linha: 1,5x o tamanho padão*/
-    
+margin: 1rem 0;/*valores:cima-baixo esquerda-direita*/    
 }
 
-section#Soft_Skills{
-    background-color:teal
+h3{
+    font-size: 1.5rem;
+    font-weight:300;
+    text-transform:uppercase;
+    margin: 1rem 0;
+
 }
 
-section#idiomas_que_falo{
-    background-color:tomato
-}
+
+
