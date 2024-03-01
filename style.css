@@ -19,7 +19,10 @@ body{
     font-size: 16px;/* o padrão é '16px */
     font-family:"Cantarell",sans-serif;
     font-weight: 200;
+
 }
+
+
 
 section{
     
@@ -55,12 +58,45 @@ section#Cursos{
 
 }
 
+
+#tecnologoias {
+
+    display: flex; /*exibe com caixa flexivel (flebox)*/
+    justify-content: center; /* 30% do pai (section id= "tecnologias"*/
+
+}
+
+/*combinadores*/
+
+article h1 { /* h1 desscentente de article*/
+
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+article h2 {/* h2 descententes de article*/
+    font-size:1.5rem;
+    font-weight: 600; /*demi-bold (quase negrito)*/
+
+
+}
+article p {
+    text-align:
+
+}
+
+
+article{
+     width: 30%; /*30 do pai (setionid=tecnologias")*/
+}
+
 section#Idiomas_que_falo{
     background-color:thistle
 }
 
 .titulo_secao{
-    text-transform:uppercase
+    
     font-family:"Anta",sans-serif;
     color:black;
     font-size: 2rem;
@@ -85,3 +121,7 @@ h3{
 
 
 
+
+
+
+    
