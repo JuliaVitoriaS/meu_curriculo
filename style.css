@@ -8,7 +8,7 @@
 }
 
 h2 {
-    background-color:aliceblue
+    background-color:rgb(212, 222, 231)
 }
 
 /*comentario no CSS*/
@@ -42,7 +42,7 @@ section#idiomas_que_falo{
 }
 
 section#Soft_Skills{
-    background-color:plum
+    background-color:rgb(164, 41, 164)
 }
 
 section#Experiencia {
@@ -54,10 +54,15 @@ section#Formacao_Academica{
     background-color:mediumvioletred
 }
 section#Cursos{
-    background-color: hotpink;
+    background-color: rgb(232, 143, 187);
 
 }
 
+/*@tudo
+ 1. estilizar as demais seções
+ 2. estilizar elementos article
+ 3. tirar as sombras de texto
+ */
 
 #tecnologoias {
 
@@ -67,24 +72,60 @@ section#Cursos{
 }
 
 /*combinadores*/
+article{
+    width:30%; /*30% do opai (section id="tecnologias"*/
+    background-color: ;
+}
 
 article h1 { /* h1 desscentente de article*/
 
     font-size: 2rem;
     font-weight: bold;
+    margin: 0 0 1rem 0;
 
 }
 
 article h2 {/* h2 descententes de article*/
     font-size:1.5rem;
     font-weight: 600; /*demi-bold (quase negrito)*/
-
-
+    margin: 0 0 1rem 0;
 }
+
+
 article p {
-    text-align:
+        text-align:justify;
+    
+    }
+    
+
+.autor{
+    font-style: oblique;
+    font-weight: 600;
+    font-size: 80%;
+}
+
+.data{
+    font-style: oblique;
+    font-size: 80%;
+}
+
+
+
+.continue_lendo{
+    background-color: aquamarine;
+    padding: 5rem 1rem;
+    margin-top:1rem;
+    color:#afffff;
+    text-decoration:none;
 
 }
+
+.continue_lendo{
+    color:#afffff;
+    text-decoration:none;
+
+}
+
 
 
 article{
@@ -92,7 +133,7 @@ article{
 }
 
 section#Idiomas_que_falo{
-    background-color:thistle
+    background-color:rgb(222, 190, 222)
 }
 
 .titulo_secao{
