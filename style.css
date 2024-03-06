@@ -21,7 +21,10 @@ body{
     font-weight: 200;
 
 }
-
+.tec {
+    display:flex;
+    justify-content: space-around;
+}
 
 
 section{
@@ -38,43 +41,50 @@ section#Resumo_Profissional {
 
 }
 section#idiomas_que_falo{
-    background-color:tomato
+    background-color:rgb(96, 31, 19)
 }
 
-section#Soft_Skills{
-    background-color:rgb(164, 41, 164)
+section#soft_skills{
+    background-color:rgb(134, 33, 134)
 }
 
 section#Experiencia {
-background-color: bisque;
+background-color: rgb(134, 73, 137);
 
 }
 
 section#Formacao_Academica{
-    background-color:mediumvioletred
+    background-color:rgb(168, 14, 112)
 }
 section#Cursos{
     background-color: rgb(232, 143, 187);
 
 }
-
+section#Hard_skills{
+    background-color:mediumorchid
+}
 /*@tudo
  1. estilizar as demais seções
  2. estilizar elementos article
  3. tirar as sombras de texto
  */
 
-#tecnologoias {
-
+#tecnologias {
+    margin-top: 60px;
     display: flex; /*exibe com caixa flexivel (flebox)*/
-    justify-content: center; /* 30% do pai (section id= "tecnologias"*/
-
+    justify-content: space-evenly; /* 30% do pai (section id= "tecnologias"*/
+    display:flex;}
+   
+   
+.continue_lendo{
+    /* background-color: blue; */
+    color: white;
+    transform: scale(1.2)
 }
 
 /*combinadores*/
 article{
     width:30%; /*30% do opai (section id="tecnologias"*/
-    background-color: ;
 }
 
 article h1 { /* h1 desscentente de article*/
@@ -93,7 +103,10 @@ article h2 {/* h2 descententes de article*/
 
 
 article p {
-        text-align:justify;
+        text-align:left;
+        margin-bottom: 1rem;
+
+      
     
     }
     
@@ -112,20 +125,14 @@ article p {
 
 
 .continue_lendo{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     padding: 5rem 1rem;
     margin-top:1rem;
     color:#afffff;
     text-decoration:none;
-
-}
-
-.continue_lendo{
     color:#afffff;
     text-decoration:none;
-
 }
-
 
 
 article{
@@ -161,8 +168,24 @@ h3{
 }
 
 
+.lista_tags li {
+    display: inline-block;
+    background-color:#ffffffcb;
+    padding: 5px;
+    border-radius: 4px;
+    margin:5px 0;
+    color:var(--cor-primaria-texto);
+}
 
 
+.Hard_Skills li {
+
+    display: inline-block;
+    background-color:#ffffffcb;
+    padding: 5px;
+    border-radius: 4px;
+    margin:5px 0;
+}  
 
 
-    
+   
