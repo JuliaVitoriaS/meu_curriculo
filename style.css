@@ -5,13 +5,37 @@
 
 :root{
     font-size: 16px;/*tamanho base so rem ->1 rem = 16px*/
+    scroll-behavior: smooth;
+
+
+/*TEMA: LIGHT*/
+--plano-fundo:#353535;
+--cor-fundo-tags:#bebebe;
+--plano-de-fundo:#ffffff;
+
 }
+[data_tema="ligth"] {
+--plano-de-fundo:#ffffff;
+--cor-primaria-texto:#353535;
+--cor-fundi-tags:#bebebe;
+
+}
+
+
+[data_tema="dark"] {
+ --plano-de-fundo:#353535;
+ --cor_primaria_texto:#ffffff;
+ --cor-fundi-tags:#353535;
+--cor-fundo-apresentacao:#ecb3b3;
+}
+
 
 h2 {
     background-color:rgb(212, 222, 231)
-}
 
+}
 /*comentario no CSS*/
+
 
 body{
     width: 80vw;/* 80vw: 80% da viewport width*/
@@ -19,6 +43,9 @@ body{
     font-size: 16px;/* o padrão é '16px */
     font-family:"Cantarell",sans-serif;
     font-weight: 200;
+    background-color:var(--plano-de-fundo);
+   
+    
 
 }
 .tec {
@@ -32,8 +59,8 @@ section{
     padding: 30px; /*preenchimento [interno] */
 }
 
-section#entrar_em_contato_comigo {
-    background-color: lightcoral;
+section#Como_entrar_em_contato_comigo {
+    background-color:rgb(214, 104, 159)
 
 }
 section#Resumo_Profissional {
@@ -48,8 +75,8 @@ section#soft_skills{
     background-color:rgb(134, 33, 134)
 }
 
-section#Experiencia {
-background-color: rgb(134, 73, 137);
+section#experiência {
+background-color: rgba(174, 39, 152, 0.772);
 
 }
 
@@ -57,7 +84,7 @@ section#Formacao_Academica{
     background-color:rgb(168, 14, 112)
 }
 section#Cursos{
-    background-color: rgb(232, 143, 187);
+    background-color: rgb(214, 104, 159);
 
 }
 section#Hard_skills{
@@ -123,7 +150,6 @@ article p {
 }
 
 
-
 .continue_lendo{
     /* background-color: aquamarine; */
     padding: 5rem 1rem;
@@ -185,6 +211,7 @@ h3{
     padding: 5px;
     border-radius: 4px;
     margin:5px 0;
+    color:var(--cor-primaria-texto);
 }  
 
 
